@@ -1,184 +1,356 @@
 {
-  "_readme": "Prawdziwe opinie użytkowników zebrane ręcznie z Allegro.pl i Amazon.pl. Każdy produkt może mieć wpisy z kilku platform (tablica). Każdy wpis ma realny link źródłowy, ocenę i liczbę opinii z dnia zbierania. Pole summary to uczciwe podsumowanie 3-4 zdania pisane przez redakcję na podstawie faktycznie przeczytanych recenzji - włącznie z krytycznymi, jeśli się pojawiły. Produkty, dla których nie znaleziono wiarygodnej, dedykowanej oferty z recenzjami, są pomijane (nie fabrykujemy danych).",
+  "_readme": "Prawdziwe opinie użytkowników zebrane ręcznie z Allegro.pl, Amazon.pl i MediaExpert.pl. Każdy produkt ma pole \"platforms\" (wpisy per platforma: ocena, liczba opinii, link źródłowy, 3-4 zdaniowe podsumowanie redakcyjne) oraz opcjonalne pole \"combinedSummary\" - zbiorcza synteza 4-5 zdań łącząca wnioski ze wszystkich sprawdzonych platform naraz (dodawana dla modeli z Top 20 rankingu). Starszy format (sama tablica platform bez combinedSummary) pozostaje wspierany dla modeli spoza Top 20. Produkty/platformy, dla których nie znaleziono wiarygodnej, dedykowanej oferty z recenzjami, są pomijane (nie fabrykujemy danych).",
   "source": "https://testy-oczyszczaczy.pl",
   "methodology": "https://testy-oczyszczaczy.pl/jak-zbieramy-opinie/",
-  "collectedDate": "2026-08-17",
+  "collectedDate": "2026-09-02",
   "reviews": {
     "levoit-core-300s": {
       "brand": "Levoit",
       "model": "Core 300S",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Inteligentny-oczyszczacz-oczyszczaj-Core-300S/dp/B0FDL66FYH",
-          "rating": 4.5,
-          "ratingsCount": 184,
-          "summary": "Na Amazon.pl model ten ma ocenę 4,5/5 przy 184 opiniach, z czego 78% to noty najwyższe. Użytkownicy najczęściej chwalą bardzo cichą pracę w trybie nocnym oraz czujnik PM2.5, który trafnie reaguje na realne zanieczyszczenia – dym papierosowy czy opary z gotowania – i sam dostosowuje moc wentylatora. Doceniana jest też stabilna współpraca z aplikacją VeSync oraz Alexą, a alergicy podkreślają odczuwalną redukcję kurzu i pyłków. Jeden z recenzentów zwraca uwagę, że część niskich ocen na Amazon dotyczy w rzeczywistości innych, tańszych modeli Levoit błędnie przypisanych do tej oferty."
-        },
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-300s-smart-do-50m2-wifi-timer-bialy-0665c650-63e4-4977-b586-9dcf0e17931b?offerId=18324620657",
-          "rating": 4.91,
-          "ratingsCount": 549,
-          "summary": "Na Allegro model ten ma ocenę 4,91/5 przy 549 ocenach i 213 recenzjach (521 to najwyższa nota) – to jeden z najliczniej ocenianych oczyszczaczy w tym segmencie cenowym. Najbardziej pomocna recenzja chwali cichą, energooszczędną pracę oraz czujnik, który niemal natychmiast wykrywa zanieczyszczenia – recenzentka opisuje, jak urządzenie reaguje już w momencie rozpoczęcia gotowania w sąsiednim pomieszczeniu. Rozkład ocen jest bardzo wysoki i spójny z tym, co potwierdzają użytkownicy na Amazon.pl – niezależnie od platformy dominują te same atuty: cisza i szybka reakcja czujnika."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Inteligentny-oczyszczacz-oczyszczaj-Core-300S/dp/B0FDL66FYH",
+            "rating": 4.5,
+            "ratingsCount": 184,
+            "summary": "Na Amazon.pl model ten ma ocenę 4,5/5 przy 184 opiniach, z czego 78% to noty najwyższe. Użytkownicy najczęściej chwalą bardzo cichą pracę w trybie nocnym oraz czujnik PM2.5, który trafnie reaguje na realne zanieczyszczenia - dym papierosowy czy opary z gotowania - i sam dostosowuje moc wentylatora. Doceniana jest też stabilna współpraca z aplikacją VeSync oraz Alexą, a alergicy podkreślają odczuwalną redukcję kurzu i pyłków. Jeden z recenzentów zwraca uwagę, że część niskich ocen na Amazon dotyczy w rzeczywistości innych, tańszych modeli Levoit błędnie przypisanych do tej oferty."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-300s-smart-do-50m2-wifi-timer-bialy-0665c650-63e4-4977-b586-9dcf0e17931b?offerId=18324620657",
+            "rating": 4.91,
+            "ratingsCount": 549,
+            "summary": "Na Allegro model ten ma ocenę 4,91/5 przy 549 ocenach i 213 recenzjach (521 to najwyższa nota) - to jeden z najliczniej ocenianych oczyszczaczy w tym segmencie cenowym. Najbardziej pomocna recenzja chwali cichą, energooszczędną pracę oraz czujnik, który niemal natychmiast wykrywa zanieczyszczenia - recenzentka opisuje, jak urządzenie reaguje już w momencie rozpoczęcia gotowania w sąsiednim pomieszczeniu. Rozkład ocen jest bardzo wysoki i spójny z tym, co potwierdzają użytkownicy na Amazon.pl - niezależnie od platformy dominują te same atuty: cisza i szybka reakcja czujnika."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-levoit-core-300s",
+            "rating": 4.9,
+            "ratingsCount": 17,
+            "summary": "W Media Expert model ma ocenę 4,9/5 przy 17 opiniach, a wszyscy recenzenci polecają produkt. Kupujący najczęściej chwalą bardzo cichą pracę względem konkurencyjnych modeli w tej klasie, solidne wykonanie z dobrej jakości plastików oraz łatwe połączenie z aplikacją i smartfonem. Kilka opinii potwierdza skuteczność nawet w pomieszczeniach większych niż deklarowane 40 m², a jedna z bardziej szczegółowych recenzji chwali redukcję alergenów u dziecka i psa w domu, jednocześnie zwracając uwagę na rosnącą z czasem cenę oryginalnych filtrów zamiennych. Sporadyczna niższa ocena (4,2/5) dotyczyła wciąż pozytywnego doświadczenia, bez istotnych zastrzeżeń."
+          }
+        ],
+        "combinedSummary": "Levoit Core 300S to jeden z najszerzej potwierdzonych modeli w tym zestawieniu - opinie z Amazon.pl, Allegro.pl i Media Expert opisują dokładnie te same atuty: bardzo cichą pracę (zwłaszcza w trybie nocnym), czujnik jakości powietrza szybko reagujący na dym, zapachy z gotowania czy kurz, oraz stabilne działanie aplikacji. Allegro dysponuje zdecydowanie największą próbką (549 ocen), Amazon.pl potwierdza wysoką ocenę przy 184 opiniach, a Media Expert dokłada mniejszą, ale również bardzo pozytywną próbkę 17 opinii bezpośrednio od polskich kupujących. Jedyna powtarzająca się krytyczna uwaga, widoczna w recenzji z Media Expert, dotyczy rosnących kosztów oryginalnych filtrów zamiennych. Niezależnie od kanału zakupu obraz produktu jest spójny i bardzo pozytywny."
+      }
     },
     "philips-ac2220-10": {
       "brand": "Philips",
       "model": "AC2220/10",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Oczyszczacz-NanoProtect-inteligentny-AC2220-10/dp/B0FYHKVT96",
-          "rating": 4.4,
-          "ratingsCount": 20,
-          "summary": "Na Amazon.pl produkt ma notę 4,4/5, choć próbka jest niewielka – zaledwie 20 opinii, więc traktujemy ją z ostrożnością. Recenzenci chwalą bardzo cichą pracę dzięki technologii SilentWings oraz skuteczność wobec sierści i łupieżu zwierzęcego. Tryb automatyczny trafnie wyłapuje zmiany jakości powietrza i sam reguluje obroty, a wymiana filtra oceniana jest jako prosta. Żadna z dostępnych recenzji nie pochodzi z Polski – opinie zebrane są z rynków niemieckiego i tureckiego."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Oczyszczacz-NanoProtect-inteligentny-AC2220-10/dp/B0FYHKVT96",
+            "rating": 4.4,
+            "ratingsCount": 20,
+            "summary": "Na Amazon.pl produkt ma notę 4,4/5, choć próbka jest niewielka - zaledwie 20 opinii, więc traktujemy ją z ostrożnością. Recenzenci chwalą bardzo cichą pracę dzięki technologii SilentWings oraz skuteczność wobec sierści i łupieżu zwierzęcego. Tryb automatyczny trafnie wyłapuje zmiany jakości powietrza i sam reguluje obroty, a wymiana filtra oceniana jest jako prosta. Żadna z dostępnych recenzji nie pochodzi z Polski - opinie zebrane są z rynków niemieckiego i tureckiego."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-pureprotect-quiet-serii-2200-ac2220-10-b09af7da-bded-401d-91b2-dbd40cec3563?offerId=18868385002",
+            "rating": 4.91,
+            "ratingsCount": 64,
+            "summary": "Na Allegro model ten ma ocenę 4,91/5 przy 64 ocenach i 23 recenzjach - wynik bardzo wysoki i wsparty większą próbką niż na Amazon.pl. Rozkład ocen jest mocno skoncentrowany na najwyższej nocie (96% ocen \"5\"), z pojedynczymi wyjątkami (jedna ocena \"3\" i jedna \"1\", bez opisu przyczyny). Najbardziej pomocna recenzja chwali elegancki wygląd, cichą pracę i rozbudowaną aplikację, przydatną szczególnie dla alergika, bez wskazanych wad. Wszystkie widoczne opinie na tej ofercie są potwierdzone zakupem."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-philips-pureprotect-quiet-ac2220-10",
+            "rating": 4.9,
+            "ratingsCount": 27,
+            "summary": "Na MediaExpert.pl produkt ma ocenę 4,9/5 na podstawie 27 opinii, a 26 z 27 recenzentów poleca go innym kupującym. Klienci najczęściej podkreślają wyraźną poprawę jakości powietrza w domu, ciszę pracy w trybie auto/uśpienia oraz nowoczesny, lekki design dobrze komponujący się z wnętrzem. Kilka recenzji wspomina promocyjny filtr za 1 zł jako dodatkowy atut zakupu. Żadna z widocznych opinii nie zgłasza poważnych wad."
+          }
+        ],
+        "combinedSummary": "Philips AC2220/10 zbiera bardzo spójnie wysokie oceny na wszystkich trzech platformach: 4,4/5 na Amazon.pl (mała próba 20 ocen, głównie z rynków zagranicznych), 4,91/5 na Allegro.pl (64 oceny, 23 recenzje) i 4,9/5 na MediaExpert.pl (27 opinii, 26 poleceń). Na polskich platformach opinie są liczniejsze i jednoznacznie pozytywne - użytkownicy chwalą cichą pracę, elegancki wygląd oraz dobrze ocenianą aplikację Philips Air+. Nie odnotowano powtarzających się skarg ani wad konstrukcyjnych na żadnej z platform. Warto pamiętać, że mimo wysokich not próbki na Allegro i MediaExpert wciąż liczą po kilkadziesiąt opinii, więc obraz może się zmieniać wraz z napływem kolejnych recenzji."
+      }
     },
     "philips-ac4221-11-pureprotect": {
       "brand": "Philips",
       "model": "AC4221/11 PureProtect",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Philips-Oczyszczacz-Powietrza-serii-4200/dp/B0D3VCF5P2",
-          "rating": 4.4,
-          "ratingsCount": 378,
-          "summary": "Model zebrał ocenę 4,4/5 na podstawie 378 opinii na Amazon.pl, w tym jedną zweryfikowaną recenzję z Polski (\"Idealnie spełnia swoje zadanie\"). Kluczowym atutem według recenzentów jest bardzo cicha praca nawet przy maksymalnej prędkości wentylatora – część użytkowników podkreśla, że słychać ledwie delikatny szum. Wysoki odsetek ocen 5-gwiazdkowych (75%) i pozytywne opinie z Francji, Belgii i Niemiec wskazują na spójne, dobre doświadczenia użytkowników niezależnie od rynku."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Philips-Oczyszczacz-Powietrza-serii-4200/dp/B0D3VCF5P2",
+            "rating": 4.4,
+            "ratingsCount": 378,
+            "summary": "Model zebrał ocenę 4,4/5 na podstawie 378 opinii na Amazon.pl, w tym jedną zweryfikowaną recenzję z Polski (\"Idealnie spełnia swoje zadanie\"). Kluczowym atutem według recenzentów jest bardzo cicha praca nawet przy maksymalnej prędkości wentylatora - część użytkowników podkreśla, że słychać ledwie delikatny szum. Wysoki odsetek ocen 5-gwiazdkowych (75%) i pozytywne opinie z Francji, Belgii i Niemiec wskazują na spójne, dobre doświadczenia użytkowników niezależnie od rynku."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/philips-oczyszczacz-ac4221-11-156m2-cadr-600m3-h-hepa-wegiel-alergie-cichy-dbed8384-dd87-49f8-bf24-996e4551b2c9?offerId=18891983032",
+            "rating": 4.81,
+            "ratingsCount": 47,
+            "summary": "Na Allegro model ma ocenę 4,81/5 przy 47 ocenach i 19 recenzjach, z rozkładem mocno przechylonym w stronę najwyższej noty (93% ocen \"5\"), choć pojawiły się też 2 oceny \"1\" (4%) bez opisu. Wszystkie widoczne opinie na tej ofercie są potwierdzone zakupem. Najbardziej pomocna recenzja opisuje dwa miesiące bezawaryjnego użytkowania, skuteczną redukcję zapachów i alergenów od kota oraz wygodne zdalne sterowanie aplikacją. Pojedyncze niskie oceny nie mają towarzyszącego opisu, więc nie da się zweryfikować ich przyczyny."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-philips-ac4221-11-pureprotect",
+            "rating": 4.8,
+            "ratingsCount": 39,
+            "summary": "Na MediaExpert.pl produkt ma ocenę 4,8/5 na podstawie 39 opinii, a 37 z 39 recenzentów go poleca. Większość recenzji jest pozytywna (cicha praca w tle, brak irytujących dźwięków), ale pojawiają się też konkretne zastrzeżenia: dwie recenzje zgłaszają nieprzyjemny, utrzymujący się zapach octu z nowych filtrów, a jedna z nich (ocena 2,3/5) opisuje dodatkowo problem z niestabilnym łączeniem aplikacji z urządzeniem po trzech tygodniach użytkowania. Jeden użytkownik zwraca uwagę, że urządzenie wymaga sieci Wi-Fi 2,4 GHz do połączenia z aplikacją."
+          }
+        ],
+        "combinedSummary": "Philips AC4221/11 PureProtect zbiera dobre, choć nie bezkrytyczne oceny na wszystkich trzech platformach: 4,4/5 na Amazon.pl (378 ocen, w tym jedna polska), 4,81/5 na Allegro.pl (47 ocen, 19 recenzji) i 4,8/5 na MediaExpert.pl (39 opinii). Wspólnym wątkiem jest bardzo cicha praca urządzenia, chwalona niezależnie od platformy i rynku. Na MediaExpert.pl pojawiają się jednak konkretne zastrzeżenia nieobecne w pozostałych źródłach - utrzymujący się zapach octu z nowych filtrów u części kupujących oraz problemy ze stabilnością połączenia aplikacji przez Wi-Fi. Ogólny obraz jest pozytywny, ale z sygnałem, że warto sprawdzić kompatybilność sieci Wi-Fi (2,4 GHz) i być przygotowanym na początkowy zapach nowego filtra."
+      }
     },
     "winix-zero": {
       "brand": "Winix",
       "model": "Zero",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Winix-Oczyszczacz-powietrza-technologi%C4%85-PlasmaWave/dp/B07JDQNWLG",
-          "rating": 4.5,
-          "ratingsCount": 934,
-          "summary": "Winix Zero ma jedną z najliczniejszych baz opinii wśród sprawdzonych przez nas modeli – 934 recenzje ze średnią 4,5/5, w tym dwie zweryfikowane opinie z Polski. Polscy użytkownicy chwalą bardzo cichą pracę w trybie nocnym oraz zauważalną poprawę jakości powietrza. Część recenzentów świadomie rezygnuje z funkcji jonizacji PlasmaWave z ostrożności wobec emisji ozonu, mimo że producent deklaruje bezpieczne stężenia. W recenzjach pojawiają się też pozytywne porównania z innymi markami, w tym Rowentą i Xiaomi, na korzyść Winixa."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Winix-Oczyszczacz-powietrza-technologi%C4%85-PlasmaWave/dp/B07JDQNWLG",
+            "rating": 4.5,
+            "ratingsCount": 934,
+            "summary": "Winix Zero ma jedną z najliczniejszych baz opinii wśród sprawdzonych przez nas modeli - 934 recenzje ze średnią 4,5/5, w tym dwie zweryfikowane opinie z Polski. Polscy użytkownicy chwalą bardzo cichą pracę w trybie nocnym oraz zauważalną poprawę jakości powietrza. Część recenzentów świadomie rezygnuje z funkcji jonizacji PlasmaWave z ostrożności wobec emisji ozonu, mimo że producent deklaruje bezpieczne stężenia. W recenzjach pojawiają się też pozytywne porównania z innymi markami, w tym Rowentą i Xiaomi, na korzyść Winixa."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-z-jonizacja-plasmawave-winix-zero-77feb761-a833-40bc-96b2-02fb2a59054b",
+            "rating": 4.87,
+            "ratingsCount": 159,
+            "summary": "Na Allegro produkt ma ocenę 4,87/5 przy 159 ocenach i 45 recenzjach (91% ocen to piątki, ale zdarzają się też jedynki). Najbardziej pomocna recenzja (4/5) chwali skuteczne działanie i trafne wskazania czujnika jakości powietrza, ale krytykuje niedopracowany design: brak podświetlenia przycisków (trudno obsłużyć po ciemku), irytującą melodyjkę przy włączaniu/wyłączaniu i brak pilota. To rzadki przykład konkretnej, umiarkowanej krytyki przy ogólnie bardzo pozytywnym odbiorze."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-winix-zero-1",
+            "rating": 4.8,
+            "ratingsCount": 16,
+            "summary": "W Media Expert produkt ma ocenę 4,8/5 przy 16 opiniach, wszystkie oceniające polecają zakup. Klienci chwalą cichą pracę, skuteczność wobec dymu papierosowego i szybką reakcję na zanieczyszczenia, część kupujących poleca go do sypialni z małymi dziećmi. Jeden recenzent zwraca uwagę na niespójność w komunikacji producenta: ten sam model miał wcześniej deklarowaną powierzchnię 52 m², a obecnie 99 m², mimo niezmienionego przepływu CADR 390 m³/h - co sugeruje marketingowe zawyżenie specyfikacji, a nie realną poprawę wydajności."
+          }
+        ],
+        "combinedSummary": "Winix Zero zbiera bardzo wysokie i spójne oceny na wszystkich trzech platformach (4,5-4,87/5, łącznie ponad 1100 ocen), co czyni go jednym z najlepiej udokumentowanych modeli w rankingu. Użytkownicy niezależnie od sklepu chwalą cichą pracę, szczególnie w trybie nocnym, oraz skuteczność wobec dymu i zanieczyszczeń. Pojawiają się jednak konkretne zastrzeżenia: na Allegro krytykowany jest niedopracowany interfejs (brak podświetlenia przycisków, brak pilota), a na MediaExpert jeden z klientów zwraca uwagę na podejrzane zawyżenie deklarowanej powierzchni pomieszczenia bez zmiany parametrów technicznych. Część kupujących na Amazonie celowo wyłącza jonizację PlasmaWave z ostrożności, choć producent zapewnia o jej bezpieczeństwie. Ogólny obraz to sprzęt bardzo dobrze oceniany, z drobnymi, powtarzającymi się uwagami o ergonomii i marketingu specyfikacji, a nie o skuteczności oczyszczania."
+      }
     },
     "xiaomi-smart-air-purifier-4": {
       "brand": "Xiaomi",
       "model": "Smart Air Purifier 4",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Xiaomi-Smart-Air-Purifier-Compact/dp/B0B6FHKKHP",
-          "rating": 4.4,
-          "ratingsCount": 1387,
-          "summary": "To najliczniej recenzowany model w naszym zestawieniu opinii – 1387 ocen na Amazon.pl ze średnią 4,4/5, w tym trzy zweryfikowane recenzje z Polski. Pozytywne opinie podkreślają skuteczną neutralizację zapachów (jedna z recenzji opisuje, jak urządzenie usuwa nawet dym po zgaszonej świeczce) oraz dużą trwałość – część użytkowników zgłasza bezawaryjną pracę po kilku latach. Celowo przytaczamy też krytyczną polską recenzję (2/5): przy trybie ulubionym poziom hałasu sięga ok. 48 dB, a u niektórych egzemplarzy po czasie pojawia się wibracja niewyważonego wentylatora, a integracja z Home Assistant bywa kłopotliwa. Taki rozrzut opinii jest naszym zdaniem bardziej wiarygodny niż same superlatywy."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-xiaomi-air-purifier-4-30w-bialy-beaaca44-f2ce-4226-8a93-38e0f15ece15?offerId=16765884059",
+            "rating": 4.89,
+            "ratingsCount": 1502,
+            "summary": "Na Allegro model (30 W, biały - zgodny ze standardową specyfikacją Smart Air Purifier 4 EU, nie Compact) ma ocenę 4,89/5 przy dużej próbie 1502 ocen i 338 recenzji (2 recenzje usunięte przez moderację). Rozkład ocen jest mocno skoncentrowany na najwyższej nocie (93% ocen \"5\"), z niewielkim marginesem ocen niskich (12 jedynek, 8 dwójek na 1502). Najbardziej pomocna recenzja chwali cichą pracę na wszystkich prędkościach, jonizację, szybkość działania i rozbudowaną aplikację z harmonogramami; jako jedyną wadę wskazuje brak kółek/uchwytu ułatwiającego przenoszenie. To zdecydowanie najliczniejszy zbiór opinii ze wszystkich sprawdzonych platform dla tego produktu."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-xiaomi-mi-air-purifier-4",
+            "rating": 4.7,
+            "ratingsCount": 43,
+            "summary": "Na MediaExpert.pl produkt figuruje jako \"Model producenta: Smart Air Purifier 4 EU\" (45 m², 30 W, filtr HEPA) - parametry jednoznacznie potwierdzają, że to standardowa wersja, nie Compact ani Pro. Ocena wynosi 4,7/5 na podstawie 43 opinii, a 40 z 43 recenzentów poleca urządzenie. Kupujący chwalą skuteczność w małych pomieszczeniach (ok. 20 m²), cichą pracę i czułość na nieprzyjemne zapachy; jedna recenzja zgłasza problem z dodaniem urządzenia zakupionego z regionem Singapur do \"rodziny\" sprzętów Xiaomi skonfigurowanych na inny kraj. W chwili pobierania danych produkt był oznaczony jako chwilowo niedostępny."
+          }
+        ],
+        "combinedSummary": "Na Allegro.pl (oferta 30 W, biały) i MediaExpert.pl (model producenta wprost opisany jako \"Smart Air Purifier 4 EU\", 45 m², 30 W) potwierdziliśmy właściwy model ze spójnie wysokimi ocenami: 4,89/5 przy rekordowej próbie 1502 ocen na Allegro oraz 4,7/5 przy 43 opiniach na MediaExpert. Użytkownicy na obu platformach chwalą cichą pracę i skuteczność oczyszczania, przy drobnych, niepowtarzających się zastrzeżeniach (brak kółek/uchwytu na Allegro, problem z regionem konta Xiaomi na MediaExpert). Nie znaleziono wiarygodnej, dedykowanej oferty tego dokładnego wariantu na Amazon.pl (dostępne oferty pod tym ASIN dotyczą w rzeczywistości wariantu Compact), dlatego tę platformę pominięto dla tego produktu zgodnie z zasadą niefabrykowania danych. Ogólny obraz to bardzo dobrze oceniany, ciszej pracujący model bez istotnych, powtarzających się skarg na skuteczność filtracji."
+      }
     },
     "xiaomi-smart-air-purifier-4-pro": {
       "brand": "Xiaomi",
       "model": "Smart Air Purifier 4 Pro",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Xiaomi-Smart-Air-Purifier-Pro/dp/B09KB7T1VL",
-          "rating": 4.4,
-          "ratingsCount": 414,
-          "summary": "Wersja Pro ma ocenę 4,4/5 przy 414 opiniach na Amazon.pl, choć żadna nie pochodzi z Polski – opinie zebrane są z rynków szwedzkiego, włoskiego, belgijskiego i australijskiego. Użytkownicy zgodnie chwalą bardzo cichą pracę w normalnym trybie (głośniej robi się tylko przy ręcznie ustawionej maksymalnej prędkości) oraz skuteczność trybu automatycznego, który błyskawicznie reaguje na dym czy zapach gotowania. Kilku recenzentów wprost pisze, że urządzenie rozwiązało problem z zapachem papierosów w domu, a inni chwalą pomoc przy sezonowych alergiach."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Xiaomi-Smart-Air-Purifier-Pro/dp/B09KB7T1VL",
+            "rating": 4.4,
+            "ratingsCount": 414,
+            "summary": "Wersja Pro ma ocenę 4,4/5 przy 414 opiniach na Amazon.pl, choć żadna nie pochodzi z Polski - opinie zebrane są z rynków szwedzkiego, włoskiego, belgijskiego i australijskiego. Użytkownicy zgodnie chwalą bardzo cichą pracę w normalnym trybie (głośniej robi się tylko przy ręcznie ustawionej maksymalnej prędkości) oraz skuteczność trybu automatycznego, który błyskawicznie reaguje na dym czy zapach gotowania. Kilku recenzentów wprost pisze, że urządzenie rozwiązało problem z zapachem papierosów w domu, a inni chwalą pomoc przy sezonowych alergiach."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/oferta/xiaomi-smart-air-purifier-4-pro-15951884873",
+            "rating": 4.9,
+            "ratingsCount": 661,
+            "summary": "Na Allegro model (potwierdzony jako wariant \"4 Pro\", odróżniony od dostępnej obok wersji \"4 Lite\") ma ocenę 4,90/5 przy 661 ocenach i 145 recenzjach (1 usunięta) - to największa próbka opinii wśród sprawdzonych platform dla tego produktu, 94% ocen to piątki. Najbardziej pomocna recenzja chwali szybką reakcję trybu automatycznego na otwarcie drzwi czy pojawiające się zanieczyszczenia, prostą obsługę i wygodną aplikację, jednocześnie wprost polemizując z innymi opiniami zarzucającymi urządzeniu głośną pracę - autor twierdzi, że w trybie auto szum jest delikatny. Ta rozbieżność w ocenie głośności między recenzentami jest warta odnotowania."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-xiaomi-mi-air-purifier-pro-4-ac-m15-sc",
+            "rating": 4.8,
+            "ratingsCount": 74,
+            "summary": "W Media Expert produkt (XIAOMI Smart Air Purifier 4 Pro EU Wi-Fi) ma ocenę 4,8/5 przy 74 opiniach, z czego 68 użytkowników poleca zakup. Recenzje potwierdzają wzorzec widoczny też na innych platformach: w normalnym trybie urządzenie jest bardzo ciche, ale przy wykryciu większego zanieczyszczenia (np. smażenie, dym) przełącza się na najwyższy bieg i wtedy praca jest wyraźnie głośniejsza - kilku recenzentów opisuje to wprost jako kompromis, a nie wadę. Alergicy podkreślają realną poprawę snu i ustąpienie kataszlu przy zamkniętym oknie."
+          }
+        ],
+        "combinedSummary": "Xiaomi Smart Air Purifier 4 Pro to jeden z najlepiej udokumentowanych produktów w rankingu - ponad 1100 opinii łącznie na trzech platformach, ze spójnie wysokimi ocenami (4,4-4,90/5). Wszystkie trzy źródła niezależnie potwierdzają ten sam wzorzec akustyczny: urządzenie jest bardzo ciche w trybie automatycznym/normalnym, ale głośno pracuje na najwyższym biegu, gdy wykryje silne zanieczyszczenie (dym, smażenie) - to nie jest wada zgłaszana przez pojedynczych recenzentów, lecz konsekwentnie powtarzający się, zweryfikowany na wielu sklepach mechanizm działania. Użytkownicy zgodnie chwalą skuteczność przy alergiach i poprawę jakości snu. Warto pilnować, by nie mylić tego wariantu z modelami \"4\", \"4 Lite\" czy \"4 Compact\" - w tym batchu zweryfikowano dokładne dopasowanie nazwy na każdej platformie. Żadne z trzech źródeł nie zawiera opinii z Polski na Amazon.pl, co nieco ogranicza porównywalność z rynkiem lokalnym, ale Allegro i MediaExpert dostarczają obszerne, polskojęzyczne dane potwierdzające ten sam obraz produktu."
+      }
     },
     "philips-ac3737-10": {
       "brand": "Philips",
       "model": "AC3737/10",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Philips-Oczyszczacz-Nawil%C5%BCacz-Powietrza-serii/dp/B0CB1HK3M5",
-          "rating": 4.2,
-          "ratingsCount": 211,
-          "summary": "Ten model oczyszczacza z nawilżaczem 2w1 ma ocenę 4,2/5 na podstawie 211 opinii, w tym jedną pozytywną, zweryfikowaną recenzję z Polski, która porównuje efekt do \"powietrza jak po burzy w górach\". Większość recenzentów w Europie chwali bardzo cichą pracę w trybie automatycznym oraz skuteczne połączenie oczyszczania i nawilżania. Dla uczciwości warto jednak przytoczyć krytyczną recenzję z Włoch (1/5) – użytkownik zwrócił urządzenie po tygodniu, uznając nawilżanie za zbyt intensywne. To najniższy odsetek ocen 5-gwiazdkowych (61%) wśród sprawdzonych przez nas modeli."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Philips-oczyszczacz-NanoProtect-niewidocznych-AC3737/dp/B0CB1HK3M5",
+            "rating": 4.2,
+            "ratingsCount": 212,
+            "summary": "Dostępna jest tylko jedna zweryfikowana polska recenzja (4/5), entuzjastyczna i dość ogólnikowa, chwaląca ciche działanie i oczyszczanie oraz nawilżanie razem. Wśród recenzji z innych krajów pojawia się mocno krytyczna opinia z Włoch (1/5) o tym, że urządzenie \"nie kontroluje wilgotności, tylko ją tworzy\"."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-combi-2w1-ac3737-10-wifi-42w-131m2-cf520f0d-f768-4dc8-ae50-69426234c6eb",
+            "rating": 4.86,
+            "ratingsCount": 97,
+            "summary": "97 ocen i 29 pisemnych recenzji, wynik bardzo wysoki (92% ocen to 5/5). Jedna z konkretnych krytycznych recenzji zwraca uwagę, że nawilżanie stale przekracza ustawioną wartość (zamiast 50% utrzymuje się powyżej 60%), aplikacja mobilna bywa niestabilna i wymaga restartów, a urządzenie nie ma czujnika zapachu/dymu reagującego na nieprzyjemne wonie."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-philips-ac3737-10",
+            "rating": 4.7,
+            "ratingsCount": 27,
+            "summary": "27 opinii, wydajność oceniona najniżej spośród kategorii (4,4/5). Użytkownicy chwalą cichą pracę i nawilżanie, ale pojawiają się poważne zastrzeżenia: jedna recenzja (3,3/5) twierdzi, że funkcja oczyszczania nie działa, gdy włożony jest górny element nawilżający, i że urządzenie słabo wychwytuje zanieczyszczenia; inna (3,5/5) opisuje utrzymujący się w pomieszczeniu specyficzny, trudny do określenia zapach emanujący z urządzenia."
+          }
+        ],
+        "combinedSummary": "Trzy platformy dają obraz produktu solidnego i cichego, ale z powtarzającym się zastrzeżeniem dotyczącym funkcji 2w1: kilku niezależnych recenzentów (Allegro i MediaExpert) zgłasza problemy z nawilżaniem (przekraczanie zadanej wilgotności) lub z jednoczesnym działaniem oczyszczania i nawilżania. Na MediaExpert dodatkowo pojawia się skarga na utrzymujący się dziwny zapach z urządzenia. Ogólny odbiór jest pozytywny (oceny 4,2-4,86/5), ale przy zakupie warto liczyć się z możliwymi niedociągnięciami trybu nawilżania."
+      }
     },
     "philips-ac3421-13": {
       "brand": "Philips",
       "model": "AC3421/13",
-      "platforms": [
-        {
-          "platform": "Amazon.pl",
-          "url": "https://www.amazon.pl/Philips-Oczyszczaczo-nawil%C5%BCacz-Powietrza-serii-3400/dp/B0D3VFJK1B",
-          "rating": 4.3,
-          "ratingsCount": 427,
-          "summary": "To model z najlepiej udokumentowanym polskim feedbackiem spośród wszystkich sprawdzonych przez nas produktów – aż sześć zweryfikowanych recenzji z Polski wśród 427 opinii (ocena 4,3/5). Polscy użytkownicy chwalą błyskawiczne wychwytywanie zanieczyszczeń (nawet dymu z e-papierosa) oraz realną pomoc przy alergiach na kurz i sierść, a jeden z rodziców opisuje, że urządzenie pomogło przy nocnym kaszlu dziecka. Musimy jednak uczciwie zaznaczyć istotne ograniczenie konstrukcyjne, na które zwraca uwagę jedna z recenzji: tego modelu nie da się używać jako samego oczyszczacza bez jednoczesnego nawilżania – jeden użytkownik zwrócił urządzenie, bo rano okna w sypialni robiły się mokre od wilgoci."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Philips-Oczyszczaczo-nawil%C5%BCacz-Powietrza-serii-3400/dp/B0D3VFJK1B",
+            "rating": 4.3,
+            "ratingsCount": 427,
+            "summary": "To model z najlepiej udokumentowanym polskim feedbackiem spośród wszystkich sprawdzonych przez nas produktów - aż sześć zweryfikowanych recenzji z Polski wśród 427 opinii (ocena 4,3/5). Polscy użytkownicy chwalą błyskawiczne wychwytywanie zanieczyszczeń (nawet dymu z e-papierosa) oraz realną pomoc przy alergiach na kurz i sierść, a jeden z rodziców opisuje, że urządzenie pomogło przy nocnym kaszlu dziecka. Musimy jednak uczciwie zaznaczyć istotne ograniczenie konstrukcyjne, na które zwraca uwagę jedna z recenzji: tego modelu nie da się używać jako samego oczyszczacza bez jednoczesnego nawilżania - jeden użytkownik zwrócił urządzenie, bo rano okna w sypialni robiły się mokre od wilgoci."
+          },
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-nawilzacz-philips-ac3421-13-hepa-weglowy-wifi-78m2-69ffb4bb-bc63-472f-9663-c1ad4cf9fdc8",
+            "rating": 4.78,
+            "ratingsCount": 54,
+            "summary": "Na Allegro produkt ma ocenę 4,78/5 przy 54 ocenach i 15 recenzjach (85% ocen to piątki). Najbardziej pomocna recenzja opisuje urządzenie bardziej jako nawilżacz niż oczyszczacz: autor nie zauważył wyraźnej poprawy jakości powietrza poza wzrostem wilgotności, za to zgłasza problem z nadmiernym nawilżaniem - przy ustawionych 50% wilgotność w nocy rosła do ponad 70%, mimo że przed zakupem naturalny poziom w pokoju wynosił około 40%. Aplikacja i cicha praca (zwłaszcza tryb nocny) są chwalone. Ten sam wątek nadmiernego zawilgocenia pokrywa się z zastrzeżeniem znalezionym niezależnie na Amazon.pl."
+          }
+        ],
+        "combinedSummary": "Philips AC3421/13 zbiera bardzo dobre oceny na obu sprawdzonych platformach: 4,78/5 na Allegro (54 oceny/15 recenzji) i 4,3/5 na Amazon.pl (427 opinii, w tym 6 zweryfikowanych z Polski). Użytkownicy chwalą szybkie i skuteczne oczyszczanie powietrza, pomoc przy alergiach oraz cichą pracę w trybie nocnym. Powtarzającym się na obu platformach zastrzeżeniem jest funkcja nawilżania: na Allegro klient zgłasza, że urządzenie nie utrzymuje ustawionego poziomu wilgotności (rośnie z 50% do ponad 70% w nocy), a na Amazon inny użytkownik zwrócił sprzęt z powodu zawilgocenia okien - konstrukcyjnie nie da się używać go jako samego oczyszczacza bez jednoczesnego nawilżania. MediaExpert.pl nie ma obecnie tego modelu w swoim katalogu oczyszczaczy Philips, więc platforma została pominięta."
+      }
     },
     "levoit-vital-200s-pro": {
       "brand": "Levoit",
       "model": "Vital 200S Pro",
-      "platforms": [
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-vital-200s-hepa-dla-alergikow-416m3-h-smart-48454877-5bdf-47fb-b56b-2e8c1f6d23e2?offerId=15485664478",
-          "rating": 4.93,
-          "ratingsCount": 27,
-          "summary": "Na Allegro model ten ma ocenę 4,93/5 przy 27 ocenach i 12 recenzjach (25 to najwyższa nota), sprzedawany głównie przez oficjalny sklep Levoit-Polska. Kupujący najczęściej chwalą bardzo cichą pracę, szybką reakcję na zmiany jakości powietrza i zapachy oraz zmywalny filtr wstępny – jedna z recenzji porównuje go korzystnie do wcześniej używanego oczyszczacza Xiaomi. Dla uczciwości warto odnotować dwie krytyczne uwagi: jeden użytkownik zgłosił nieprzyjemny zapach przy pierwszym użyciu (ustępujący po dłuższej pracy), a inny zauważył, że aplikacja nie pokazuje bezpośrednio wartości PM2.5. Ogólny odbiór jest bardzo pozytywny, także w dużych pomieszczeniach – jeden z recenzentów potwierdza dobre działanie w mieszkaniu 75 m²."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-vital-200s-hepa-dla-alergikow-416m3-h-smart-48454877-5bdf-47fb-b56b-2e8c1f6d23e2?offerId=15485664478",
+            "rating": 4.93,
+            "ratingsCount": 27,
+            "summary": "Na Allegro model ten ma ocenę 4,93/5 przy 27 ocenach i 12 recenzjach (25 to najwyższa nota), sprzedawany głównie przez oficjalny sklep Levoit-Polska. Kupujący najczęściej chwalą bardzo cichą pracę, szybką reakcję na zmiany jakości powietrza i zapachy oraz zmywalny filtr wstępny - jedna z recenzji porównuje go korzystnie do wcześniej używanego oczyszczacza Xiaomi. Dla uczciwości warto odnotować dwie krytyczne uwagi: jeden użytkownik zgłosił nieprzyjemny zapach przy pierwszym użyciu (ustępujący po dłuższej pracy), a inny zauważył, że aplikacja nie pokazuje bezpośrednio wartości PM2.5. Ogólny odbiór jest bardzo pozytywny, także w dużych pomieszczeniach - jeden z recenzentów potwierdza dobre działanie w mieszkaniu 75 m²."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-levoit-vital-200s-pro",
+            "rating": 4.9,
+            "ratingsCount": 3,
+            "summary": "W Media Expert model ma ocenę 4,9/5 przy 3 opiniach, wszystkie od kupujących z potwierdzonym zakupem i wszyscy poleciliby produkt. Kupujące chwalą bardzo prostą obsługę - jedna pisze, że zdejmowanie i wymiana filtrów nie wymaga nawet zaglądania do instrukcji - oraz zauważalną świeżość powietrza już po około 20 minutach pracy. Tryb dla zwierząt („łapka”) chwilowo podnosi głośność, po czym urządzenie wraca do cichszej pracy, a tryb nocny dodatkowo je wycisza. Próbka jest bardzo mała (tylko 3 opinie), więc wnioski trzeba traktować ostrożnie, choć wszystkie są jednoznacznie pozytywne."
+          }
+        ],
+        "combinedSummary": "Dla Levoit Vital 200S Pro udało się potwierdzić opinie na Allegro.pl i w Media Expert - na Amazon.pl oferta tego modelu istnieje, ale nie ma na niej ani jednej recenzji i jest obecnie niedostępna do kupienia, więc tę platformę pominięto. Na obu dostępnych platformach ton jest bardzo zbieżny: kupujący podkreślają cichą pracę (zwłaszcza w trybie nocnym), szybką i zauważalną poprawę świeżości powietrza oraz prostą obsługę przez aplikację VeSync. Allegro dostarcza więcej niuansów dzięki większej próbce i dwóm krytycznym uwagom (zapach przy pierwszym uruchomieniu, brak bezpośredniego odczytu PM2.5 w aplikacji), które nieco korygują entuzjastyczny, ale bardzo skromny ilościowo obraz z Media Expert. Ogólnie produkt zbiera bardzo wysokie i spójne oceny niezależnie od kanału zakupu."
+      }
     },
     "levoit-vital-100s": {
       "brand": "Levoit",
       "model": "Vital 100S",
-      "platforms": [
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-vital-100s-hepa-alergeny-zwierzece-52-m2-5d492f34-a34d-4e8e-9cbf-a28217266a9b?offerId=16738997228",
-          "rating": 4.87,
-          "ratingsCount": 46,
-          "summary": "Na Allegro model ten ma ocenę 4,87/5 przy 46 ocenach i 19 recenzjach (42 to najwyższa nota). Autor najbardziej pomocnej recenzji opisuje, jak sprawdził urządzenie w pokoju 15 m² przed ewentualnym zakupem droższego modelu – chwali dobrą jakość wykonania i cichą pracę na najniższych obrotach, ale uczciwie zaznacza, że oczyszczacz „nie eliminuje całkowicie” kurzu, tylko wyraźnie go redukuje. Taki realistyczny, niewyidealizowany ton czynimy naszym zdaniem bardziej wiarygodnym niż same superlatywy. Rozkład ocen jest bardzo wysoki, a jedynie pojedyncze opinie 3-gwiazdkowe sugerują drobne zastrzeżenia bez większego wpływu na ogólny odbiór."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-vital-100s-hepa-alergeny-zwierzece-52-m2-5d492f34-a34d-4e8e-9cbf-a28217266a9b?offerId=16738997228",
+            "rating": 4.87,
+            "ratingsCount": 46,
+            "summary": "Na Allegro model ten ma ocenę 4,87/5 przy 46 ocenach i 19 recenzjach (42 to najwyższa nota). Autor najbardziej pomocnej recenzji opisuje, jak sprawdził urządzenie w pokoju 15 m² przed ewentualnym zakupem droższego modelu - chwali dobrą jakość wykonania i cichą pracę na najniższych obrotach, ale uczciwie zaznacza, że oczyszczacz „nie eliminuje całkowicie” kurzu, tylko wyraźnie go redukuje. Taki realistyczny, niewyidealizowany ton czynimy naszym zdaniem bardziej wiarygodnym niż same superlatywy. Rozkład ocen jest bardzo wysoki, a jedynie pojedyncze opinie 3-gwiazdkowe sugerują drobne zastrzeżenia bez większego wpływu na ogólny odbiór."
+          },
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/oczyszczacz-powietrza-pomieszcze%C5%84-VERIFIDE-alergik%C3%B3w/dp/B0BNDM2RNG",
+            "rating": 4.7,
+            "ratingsCount": 11063,
+            "summary": "Na Amazon.pl model figuruje pod nazwą handlową „Vital 100S-P”, jednak numer modelu (LAP-V102S-WUS) oraz treść recenzji - jedna zaczyna się wprost od „I have been using the Levoit Vital 100S air purifier” - potwierdzają, że chodzi o ten sam produkt, co pozwoliło uwzględnić tę ofertę. Ocena to 4,7/5 przy 11 063 ocenach globalnych, choć zero recenzji pochodzi z Polski - widoczne opinie są tłumaczone z innych rynków (m.in. USA, Kanada, Meksyk, Arabia Saudyjska). Użytkownicy chwalą cichą pracę w trybie snu, prostą konfigurację z aplikacją VeSync, zauważalną redukcję kurzu i objawów alergii oraz przydatny tryb automatyczny. Krytyczne uwagi dotyczą stosunkowo drogich filtrów zamiennych na dłuższą metę oraz rozmiaru urządzenia, który jednej z recenzentek okazał się większy niż się spodziewała."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-levoit-vital-100s",
+            "rating": 5,
+            "ratingsCount": 2,
+            "summary": "W Media Expert model ma ocenę 5/5, ale opiera się to na zaledwie 2 opiniach z potwierdzonym zakupem. Obie są krótkie, ale jednoznacznie pozytywne - jedna określa sprzęt jako „super sprzęt polecam”, druga chwali go jako „bardzo fajny sprzęt przydatny w każdym domu”. Próbka jest zbyt mała, by uznać ją za reprezentatywną, ale nie zawiera żadnych zastrzeżeń."
+          }
+        ],
+        "combinedSummary": "Levoit Vital 100S ma teraz potwierdzone opinie ze wszystkich trzech platform. Na Allegro.pl (46 ocen, 4,87/5) i Amazon.pl (11 063 ocen globalnych, 4,7/5, choć bez recenzji z Polski) powtarza się ten sam obraz: cicha praca, dobra jakość wykonania i realna, choć nie całkowita, redukcja kurzu i alergenów - jeden recenzent na Allegro uczciwie zaznacza, że sprzęt „nie eliminuje całkowicie” kurzu, a recenzent na Amazon wspomina o relatywnie drogich filtrach zamiennych na dłuższą metę. Media Expert dorzuca tylko 2 krótkie, w pełni pozytywne opinie polskich kupujących, więc niewiele wnosi poza potwierdzeniem ogólnego zadowolenia. Warto odnotować, że na Amazon.pl produkt widnieje pod nazwą „Vital 100S-P”, mimo identycznego numeru modelu i treści recenzji odnoszących się wprost do „Vital 100S” - nie zmienia to wiarygodności danych, ale wyjaśnia rozbieżność w nazewnictwie. W sumie obraz produktu jest spójny: solidny, cichy oczyszczacz do średnich pomieszczeń, z drobnymi zastrzeżeniami dotyczącymi kosztów eksploatacji filtrów."
+      }
     },
     "smartmi-air-purifier-p1": {
       "brand": "Smartmi",
       "model": "Air Purifier P1",
-      "platforms": [
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-smartmi-air-purifier-p1-hepa-h13-wi-fi-do-30-m2-f305839a-1abc-4333-8bbc-27a89ce93a70?offerId=18087770114",
-          "rating": 4.91,
-          "ratingsCount": 43,
-          "summary": "Na Allegro model ten ma ocenę 4,91/5 przy 43 ocenach i 11 recenzjach (40 to najwyższa nota). Najbardziej pomocna recenzja opisuje go jako idealny do małego mieszkania – kompaktowy, łatwy do przenoszenia i na tyle cichy, że recenzent śpi obok włączonego urządzenia. Kupujący zwraca też uwagę, że zamienne filtry można znaleźć również poza Allegro (np. na Amazonie), co ułatwia bieżącą eksploatację. Ogólny odbiór jest bardzo spójny i pozytywny, szczególnie wśród osób szukających kompaktowego oczyszczacza do niewielkich pomieszczeń."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-smartmi-air-purifier-p1-hepa-h13-wi-fi-do-30-m2-f305839a-1abc-4333-8bbc-27a89ce93a70?offerId=18087770114",
+            "rating": 4.91,
+            "ratingsCount": 43,
+            "summary": "Na Allegro model ten ma ocenę 4,91/5 przy 43 ocenach i 11 recenzjach (40 to najwyższa nota). Najbardziej pomocna recenzja opisuje go jako idealny do małego mieszkania - kompaktowy, łatwy do przenoszenia i na tyle cichy, że recenzent śpi obok włączonego urządzenia. Kupujący zwraca też uwagę, że zamienne filtry można znaleźć również poza Allegro (np. na Amazonie), co ułatwia bieżącą eksploatację. Ogólny odbiór jest bardzo spójny i pozytywny, szczególnie wśród osób szukających kompaktowego oczyszczacza do niewielkich pomieszczeń."
+          },
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/SMART-Air-Purifier-Inteligentny-przechwytuje/dp/B09BD1ZFH2",
+            "rating": 4.3,
+            "ratingsCount": 41,
+            "summary": "Na Amazon.pl produkt ma ocenę 4,3/5 przy 41 ocenach globalnych, ale żadna nie pochodzi z Polski - recenzje są z Niemiec, Hiszpanii, Szwecji i Portugalii. Pozytywne opinie chwalą realną poprawę jakości powietrza i skuteczność przy alergiach (np. brak porannego kichania, szybkie wychwytywanie dymu w pokoju). Widoczny jest jednak powtarzający się problem: kilku recenzentów (2/5 i 3/5) skarży się, że funkcje smart (integracja z Apple HomeKit) przestały działać poprawnie lub w ogóle, co obniża średnią ocenę mimo dobrej samej filtracji. Jeden recenzent zauważa też głośniejszą pracę na wyższych prędkościach wentylatora."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-smartmi-air-purifier-p1-zmkqjhqp11",
+            "rating": 4.8,
+            "ratingsCount": 4,
+            "summary": "W Media Expert produkt ma ocenę 4,8/5, ale przy zaledwie 4 opiniach - to najmniejsza próbka spośród sprawdzonych platform dla tego modelu, więc wynik warto traktować ostrożnie. Recenzenci chwalą cichy tryb nocny, skuteczność przy alergii u dziecka i szybką reakcję na pogorszenie jakości powietrza, a jeden użytkownik pozytywnie wspomina integrację z Apple HomeKit - w kontraście do problemów zgłaszanych na Amazon.pl. Podkreślana jest też mobilność dzięki uchwytowi i niewielkiej wadze."
+          }
+        ],
+        "combinedSummary": "Smartmi Air Purifier P1 jest wysoko oceniany na wszystkich trzech platformach (4,3-4,91/5), a rdzeń opinii jest spójny: to cichy, kompaktowy oczyszczacz dobrze sprawdzający się w małych pomieszczeniach i przy alergiach. Warto jednak zauważyć rozbieżność co do integracji smart - recenzenci Amazon.pl (żaden z Polski) wielokrotnie skarżą się na niedziałającą lub niestabilną obsługę Apple HomeKit, podczas gdy pojedyncza opinia z MediaExpert chwali tę funkcję pozytywnie, co sugeruje, że problem może być zależny od wersji oprogramowania lub regionu. Próbka opinii na MediaExpert (4) i Amazon.pl (41, bez udziału Polski) jest stosunkowo niewielka, co ogranicza pewność ocen w porównaniu z bardziej popularnymi modelami w rankingu. Mimo to żadna platforma nie zgłasza problemów z samą skutecznością filtracji - zastrzeżenia dotyczą wyłącznie warstwy smart/łączności."
+      }
     },
     "philips-ac4220-12-pureprotect-pro": {
       "brand": "Philips",
       "model": "AC4220/12 PureProtect Pro",
-      "platforms": [
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-pureprotect-srebrny-szary-seria4200-ac4220-12-48a42861-08e1-49b8-af7f-d73755c60677?offerId=17954608556",
-          "rating": 4.95,
-          "ratingsCount": 21,
-          "summary": "Na Allegro model ten ma ocenę 4,95/5 przy 21 ocenach i 10 recenzjach (20 to najwyższa nota) – to wysoki wynik, choć próbka jest niewielka, więc traktujemy ją z ostrożnością. Najbardziej pomocna recenzja opisuje zauważalnie mniejszą ilość osiadającego kurzu na meblach już po tygodniu użytkowania, co recenzent uznaje za zaskakujące jak na wcześniej „czyste” mieszkanie. Jedyne zastrzeżenie w tej opinii dotyczy ceny zamiennych filtrów. Pozostałe oceny są równie wysokie, bez istotnych powtarzających się skarg."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-pureprotect-srebrny-szary-seria4200-ac4220-12-48a42861-08e1-49b8-af7f-d73755c60677?offerId=17954608556",
+            "rating": 4.95,
+            "ratingsCount": 21,
+            "summary": "Na Allegro model ten ma ocenę 4,95/5 przy 21 ocenach i 10 recenzjach (20 to najwyższa nota) - to wysoki wynik, choć próbka jest niewielka, więc traktujemy ją z ostrożnością. Najbardziej pomocna recenzja opisuje zauważalnie mniejszą ilość osiadającego kurzu na meblach już po tygodniu użytkowania, co recenzent uznaje za zaskakujące jak na wcześniej „czyste” mieszkanie. Jedyne zastrzeżenie w tej opinii dotyczy ceny zamiennych filtrów. Pozostałe oceny są równie wysokie, bez istotnych powtarzających się skarg."
+          }
+        ],
+        "combinedSummary": "Dla Philips AC4220/12 PureProtect Pro udało się potwierdzić wiarygodne opinie kupujących wyłącznie na Allegro.pl - mimo kilku różnych zapytań nie znaleziono dedykowanej oferty tego modelu ani na Amazon.pl, ani na MediaExpert.pl; sprzedawany jest tam głównie przez Ceneo-partnerów i sklep producenta, nie przez te dwie platformy. Na Allegro model ma bardzo wysoką ocenę 4,95/5 przy 21 ocenach i 10 recenzjach, choć próbka jest niewielka. Najbardziej pomocna recenzja opisuje zauważalnie mniejszą ilość osiadającego kurzu już po tygodniu użytkowania, z jedynym zastrzeżeniem dotyczącym ceny zamiennych filtrów. Ze względu na brak danych z pozostałych platform ocena tego modelu opiera się obecnie wyłącznie na jednym źródle i wymaga większej ostrożności interpretacyjnej."
+      }
     },
     "toshiba-caf-y92xpl": {
       "brand": "Toshiba",
       "model": "CAF-Y92XPL",
-      "platforms": [
-        {
-          "platform": "Allegro.pl",
-          "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-toshiba-caf-y92xpl-e6172171-da1a-4b5b-835f-cc86d58b1f3a?offerId=15479625845",
-          "rating": 4.94,
-          "ratingsCount": 16,
-          "summary": "Na Allegro model ten ma ocenę 4,94/5 przy 16 ocenach i 6 recenzjach (15 to najwyższa nota) – niewielka, ale spójna próbka. Najbardziej pomocna recenzja chwali solidne wykonanie, bardzo czuły czujnik cząstek PM2.5 oraz cichą pracę poza trybem turbo, doceniając też czujnik światła automatycznie wygaszający wyświetlacz po zmroku. Dla uczciwości ten sam recenzent wskazuje dwie wady: krótką instrukcję zawierającą błędy oraz wysoki koszt zamiennych filtrów. Ogólny odbiór jest mimo to bardzo pozytywny."
-        }
-      ]
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-toshiba-caf-y92xpl-e6172171-da1a-4b5b-835f-cc86d58b1f3a?offerId=15479625845",
+            "rating": 4.94,
+            "ratingsCount": 16,
+            "summary": "Na Allegro model ten ma ocenę 4,94/5 przy 16 ocenach i 6 recenzjach (15 to najwyższa nota) - niewielka, ale spójna próbka. Najbardziej pomocna recenzja chwali solidne wykonanie, bardzo czuły czujnik cząstek PM2.5 oraz cichą pracę poza trybem turbo, doceniając też czujnik światła automatycznie wygaszający wyświetlacz po zmroku. Dla uczciwości ten sam recenzent wskazuje dwie wady: krótką instrukcję zawierającą błędy oraz wysoki koszt zamiennych filtrów. Ogólny odbiór jest mimo to bardzo pozytywny."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-caf-y92xpl",
+            "rating": 5,
+            "ratingsCount": 2,
+            "summary": "Produkt figuruje na MediaExpert.pl jako „produkt archiwalny\" (wycofany ze sprzedaży), ale strona zachowała 2 opinie, obie oznaczone jako potwierdzony zakup, dające ocenę 5/5. Pierwsza opisuje sprzęt jako radzący sobie bez problemu z 45-metrowym salonem, prosty w obsłudze, bez zbędnych funkcji typu aplikacja. Druga potwierdza prostotę obsługi i brak Wi-Fi jako zaletę dla osób szukających podstawowego, niezawodnego urządzenia. Próba jest bardzo mała (2 recenzje), co ogranicza reprezentatywność tej oceny."
+          }
+        ],
+        "combinedSummary": "Toshiba CAF-Y92XPL ma pozytywny, choć liczebnie ograniczony odbiór na obu sprawdzonych platformach: 4,94/5 na Allegro (16 ocen, 6 recenzji) i 5/5 na MediaExpert (2 recenzje, produkt tam już wycofany ze sprzedaży). Kupujący na obu platformach doceniają prostotę obsługi bez zbędnych „bajerów\" typu aplikacja czy Wi-Fi, solidne wykonanie oraz skuteczne, ciche działanie poza trybem turbo. Na Allegro pojawiają się jednak konkretne zastrzeżenia: krótka instrukcja zawierająca błędy oraz wysoki koszt zamiennych filtrów. Nie udało się znaleźć wiarygodnej oferty tego modelu na Amazon.pl - produkt tam nie występuje - dlatego ta platforma została pominięta."
+      }
     },
     "philips-amf870-15-air-performer": {
       "brand": "Philips",
@@ -189,7 +361,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-3w1-wentylator-grzejnik-wifi-hepa-philips-amf870-15-39b21d61-2c1c-4888-b052-0913a2da6911?offerId=18821203745",
           "rating": 4.86,
           "ratingsCount": 57,
-          "summary": "Na Allegro model ten ma ocenę 4,86/5 przy 57 ocenach i 15 recenzjach (53 to najwyższa nota) – to jeden z najliczniej ocenianych modeli 3w1 (oczyszczacz, wentylator, grzejnik) w naszym zestawieniu. Najbardziej pomocna recenzja chwali intuicyjną obsługę, bieżące powiadomienia o zanieczyszczeniu powietrza w aplikacji oraz realnie odczuwalne chłodzenie z funkcji wentylatora (nie na poziomie klimatyzacji, ale odczuwalną ulgę w upały). Rozkład ocen jest bardzo wysoki, choć pojawia się pojedyncza ocena 1-gwiazdkowa – bez towarzyszącej treści recenzji nie jesteśmy w stanie uczciwie ocenić jej przyczyny."
+          "summary": "Na Allegro model ten ma ocenę 4,86/5 przy 57 ocenach i 15 recenzjach (53 to najwyższa nota) - to jeden z najliczniej ocenianych modeli 3w1 (oczyszczacz, wentylator, grzejnik) w naszym zestawieniu. Najbardziej pomocna recenzja chwali intuicyjną obsługę, bieżące powiadomienia o zanieczyszczeniu powietrza w aplikacji oraz realnie odczuwalne chłodzenie z funkcji wentylatora (nie na poziomie klimatyzacji, ale odczuwalną ulgę w upały). Rozkład ocen jest bardzo wysoki, choć pojawia się pojedyncza ocena 1-gwiazdkowa - bez towarzyszącej treści recenzji nie jesteśmy w stanie uczciwie ocenić jej przyczyny."
         }
       ]
     },
@@ -202,7 +374,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-ac2959-53-45m2-46w-3-etapowa-filtracja-cichy-f5a2b1b3-2090-4432-adca-d2a5abcf1b23?offerId=17008478524",
           "rating": 4.92,
           "ratingsCount": 113,
-          "summary": "Na Allegro model ten ma ocenę 4,92/5 przy 113 ocenach i 23 recenzjach (108 to najwyższa nota). Najbardziej pomocna recenzja chwali niemal natychmiastowe uczucie świeżości po włączeniu, bardzo cichą pracę (tryb nocny praktycznie niesłyszalny) oraz szybkie usuwanie zapachów smażenia i dymu z kominka – recenzentka poleca też tryb automatyczny, który sam dostosowuje intensywność. Jedyne zastrzeżenie w tej opinii to brak kółek transportowych. Rozkład ocen jest bardzo wysoki i spójny."
+          "summary": "Na Allegro model ten ma ocenę 4,92/5 przy 113 ocenach i 23 recenzjach (108 to najwyższa nota). Najbardziej pomocna recenzja chwali niemal natychmiastowe uczucie świeżości po włączeniu, bardzo cichą pracę (tryb nocny praktycznie niesłyszalny) oraz szybkie usuwanie zapachów smażenia i dymu z kominka - recenzentka poleca też tryb automatyczny, który sam dostosowuje intensywność. Jedyne zastrzeżenie w tej opinii to brak kółek transportowych. Rozkład ocen jest bardzo wysoki i spójny."
         }
       ]
     },
@@ -215,7 +387,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-toshiba-caf-x83xpl-jonizator-bialy-60m2-500m3-h-45-w-602a0c38-04d3-43f3-8bfd-1da2c6bc5982?offerId=15027034487",
           "rating": 4.78,
           "ratingsCount": 176,
-          "summary": "Na Allegro model ten ma ocenę 4,78/5 przy 176 ocenach i 48 recenzjach (153 to najwyższa nota) – to jedna z najliczniej ocenianych ofert marki Toshiba w naszym zestawieniu. Najbardziej pomocna recenzja chwali dobre wykonanie, wysoką skuteczność (szybkie oczyszczanie pokoju 35 m²) oraz niemal bezgłośną pracę w trybie nocnym, dzięki której nie ma problemu z zaśnięciem. Rozkład ocen jest bardzo dobry, z niewielkim odsetkiem ocen niższych, bez dominującej, powtarzającej się skargi."
+          "summary": "Na Allegro model ten ma ocenę 4,78/5 przy 176 ocenach i 48 recenzjach (153 to najwyższa nota) - to jedna z najliczniej ocenianych ofert marki Toshiba w naszym zestawieniu. Najbardziej pomocna recenzja chwali dobre wykonanie, wysoką skuteczność (szybkie oczyszczanie pokoju 35 m²) oraz niemal bezgłośną pracę w trybie nocnym, dzięki której nie ma problemu z zaśnięciem. Rozkład ocen jest bardzo dobry, z niewielkim odsetkiem ocen niższych, bez dominującej, powtarzającej się skargi."
         }
       ]
     },
@@ -228,7 +400,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-ac0819-10-filtr-nanoprotect-hepa-2w1-a08de378-9a02-4967-a32b-8f802b9ef9b7?offerId=18260503705",
           "rating": 4.89,
           "ratingsCount": 206,
-          "summary": "Na Allegro model ten ma ocenę 4,89/5 przy 206 ocenach i 46 recenzjach (193 to najwyższa nota) – to jeden z najliczniej ocenianych modeli w naszym zestawieniu opinii. Najbardziej pomocna recenzja chwali intuicyjną obsługę, cichą pracę wentylatora i biały filtr, dzięki któremu łatwo ocenić stopień zabrudzenia – recenzentka pisze, że pokój dziecka od razu pachnie świeżością, i podaje realny roczny koszt filtra (ok. 105 zł). Rozkład ocen jest bardzo wysoki i spójny, co przy tak dużej próbce czyni go jednym z bardziej wiarygodnych wyników w naszym zestawieniu."
+          "summary": "Na Allegro model ten ma ocenę 4,89/5 przy 206 ocenach i 46 recenzjach (193 to najwyższa nota) - to jeden z najliczniej ocenianych modeli w naszym zestawieniu opinii. Najbardziej pomocna recenzja chwali intuicyjną obsługę, cichą pracę wentylatora i biały filtr, dzięki któremu łatwo ocenić stopień zabrudzenia - recenzentka pisze, że pokój dziecka od razu pachnie świeżością, i podaje realny roczny koszt filtra (ok. 105 zł). Rozkład ocen jest bardzo wysoki i spójny, co przy tak dużej próbce czyni go jednym z bardziej wiarygodnych wyników w naszym zestawieniu."
         }
       ]
     },
@@ -241,7 +413,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-sharp-ua-hd50e-l-jonizator-nawilzacz-hepa-38-m2-a41a88a4-4627-49f9-aaa4-cc4754f997fa?offerId=18014163468",
           "rating": 4.97,
           "ratingsCount": 126,
-          "summary": "Na Allegro model ten ma ocenę 4,97/5 przy 126 ocenach i 18 recenzjach (122 to najwyższa nota) – jeden z najwyżej ocenianych modeli w naszym zestawieniu. Recenzent po dwóch miesiącach użytkowania potwierdza, że urządzenie działa zgodnie z opisem, nie jest głośne, a kompaktowa głębokość obudowy pozwala ustawić je bezproblemowo przy ścianie. Rozkład ocen jest niemal jednolicie pozytywny, bez powtarzających się zastrzeżeń."
+          "summary": "Na Allegro model ten ma ocenę 4,97/5 przy 126 ocenach i 18 recenzjach (122 to najwyższa nota) - jeden z najwyżej ocenianych modeli w naszym zestawieniu. Recenzent po dwóch miesiącach użytkowania potwierdza, że urządzenie działa zgodnie z opisem, nie jest głośne, a kompaktowa głębokość obudowy pozwala ustawić je bezproblemowo przy ścianie. Rozkład ocen jest niemal jednolicie pozytywny, bez powtarzających się zastrzeżeń."
         }
       ]
     },
@@ -254,7 +426,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-sharp-ua-kil80e-w-0077daf4-9245-4b97-96c2-88dfab50a827?offerId=18654805893",
           "rating": 4.58,
           "ratingsCount": 19,
-          "summary": "Na Allegro model ten ma ocenę 4,58/5 przy 19 ocenach i 6 recenzjach – najniższą wśród sprawdzonych przez nas modeli, częściowo z powodu dwóch ocen 1-gwiazdkowych. Najbardziej pomocna, bardzo szczegółowa recenzja opisuje wadę fabryczną napędu filtra nawilżacza, powodującą narastające terkotanie po kilku dniach lub tygodniach użytkowania, oraz krytykuje jakość polskiego serwisu Sharp przy dwóch próbach naprawy. Ten sam recenzent chwali jednak solidne wykonanie, wygląd, dużą wydajność nawilżania i mocny przepływ powietrza w dużych pomieszczeniach. Ze względu na wagę tej opinii i niższą niż zwykle ocenę traktujemy ten model z większą ostrożnością niż inne w naszym zestawieniu."
+          "summary": "Na Allegro model ten ma ocenę 4,58/5 przy 19 ocenach i 6 recenzjach - najniższą wśród sprawdzonych przez nas modeli, częściowo z powodu dwóch ocen 1-gwiazdkowych. Najbardziej pomocna, bardzo szczegółowa recenzja opisuje wadę fabryczną napędu filtra nawilżacza, powodującą narastające terkotanie po kilku dniach lub tygodniach użytkowania, oraz krytykuje jakość polskiego serwisu Sharp przy dwóch próbach naprawy. Ten sam recenzent chwali jednak solidne wykonanie, wygląd, dużą wydajność nawilżania i mocny przepływ powietrza w dużych pomieszczeniach. Ze względu na wagę tej opinii i niższą niż zwykle ocenę traktujemy ten model z większą ostrożnością niż inne w naszym zestawieniu."
         }
       ]
     },
@@ -267,7 +439,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-vestfrost-vp-a1s70wh-do-80m2-aplikacja-5e61a9ac-5b1c-405d-a8a5-c10be2d03c20?offerId=14841562116",
           "rating": 4.29,
           "ratingsCount": 24,
-          "summary": "Na Allegro model ten ma ocenę 4,29/5 przy 24 ocenach i 11 recenzjach – jedną z niższych w naszym zestawieniu, głównie z powodu nietypowo wysokiego odsetka ocen 1-gwiazdkowych (4 z 24, czyli ok. 17%). Najbardziej pomocna, ale zwięzła recenzja chwali cichą pracę, dużą liczbę funkcji (jonizacja, lampa UV-C, sterowanie z aplikacji) i dobrą cenę, nie wskazując żadnych wad. Ze względu na rozbieżność między najbardziej pomocną opinią a ogólnym rozkładem ocen, traktujemy ten model z większą ostrożnością niż inne w naszym zestawieniu."
+          "summary": "Na Allegro model ten ma ocenę 4,29/5 przy 24 ocenach i 11 recenzjach - jedną z niższych w naszym zestawieniu, głównie z powodu nietypowo wysokiego odsetka ocen 1-gwiazdkowych (4 z 24, czyli ok. 17%). Najbardziej pomocna, ale zwięzła recenzja chwali cichą pracę, dużą liczbę funkcji (jonizacja, lampa UV-C, sterowanie z aplikacji) i dobrą cenę, nie wskazując żadnych wad. Ze względu na rozbieżność między najbardziej pomocną opinią a ogólnym rozkładem ocen, traktujemy ten model z większą ostrożnością niż inne w naszym zestawieniu."
         }
       ]
     },
@@ -280,7 +452,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-sharp-ua-kin40e-w-0d8304c7-2dd2-42c1-8f03-d1fee27bafee?offerId=18531140982",
           "rating": 4.64,
           "ratingsCount": 14,
-          "summary": "Na Allegro model ten ma ocenę 4,64/5 przy 14 ocenach i 8 recenzjach (12 to najwyższa nota) – niewielka, ale w większości pozytywna próbka. Najbardziej pomocna recenzja poleca urządzenie jako kompaktowe i ciche, chwaląc dodatkowe funkcje nawilżania i jonizacji w porównaniu do wcześniej używanego oczyszczacza innej marki, a także niski koszt eksploatacji. Pojedyncze niższe oceny (2 i 3 gwiazdki) pojawiają się bez towarzyszącej treści, więc nie jesteśmy w stanie uczciwie ocenić ich przyczyny."
+          "summary": "Na Allegro model ten ma ocenę 4,64/5 przy 14 ocenach i 8 recenzjach (12 to najwyższa nota) - niewielka, ale w większości pozytywna próbka. Najbardziej pomocna recenzja poleca urządzenie jako kompaktowe i ciche, chwaląc dodatkowe funkcje nawilżania i jonizacji w porównaniu do wcześniej używanego oczyszczacza innej marki, a także niski koszt eksploatacji. Pojedyncze niższe oceny (2 i 3 gwiazdki) pojawiają się bez towarzyszącej treści, więc nie jesteśmy w stanie uczciwie ocenić ich przyczyny."
         }
       ]
     },
@@ -293,7 +465,7 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-sharp-ua-hd40e-l-nawilzacz-jonizator-hepa-26-m2-8df7b6ac-86c6-4848-9233-595cc493a76a?offerId=17925575316",
           "rating": 4.87,
           "ratingsCount": 70,
-          "summary": "Na Allegro model ten ma ocenę 4,87/5 przy 70 ocenach i 20 recenzjach (64 to najwyższa nota). Najbardziej pomocna recenzja chwali cichą pracę, która nie przeszkadza w spaniu ani w pracy, oraz zauważalną poprawę komfortu przy suchym lub gorszej jakości powietrzu dzięki funkcji nawilżania – recenzentka przenosi urządzenie między pokojami w mieszkaniu 45 m². Rozkład ocen jest bardzo wysoki i spójny, bez powtarzających się skarg poza pojedynczą oceną 1-gwiazdkową."
+          "summary": "Na Allegro model ten ma ocenę 4,87/5 przy 70 ocenach i 20 recenzjach (64 to najwyższa nota). Najbardziej pomocna recenzja chwali cichą pracę, która nie przeszkadza w spaniu ani w pracy, oraz zauważalną poprawę komfortu przy suchym lub gorszej jakości powietrzu dzięki funkcji nawilżania - recenzentka przenosi urządzenie między pokojami w mieszkaniu 45 m². Rozkład ocen jest bardzo wysoki i spójny, bez powtarzających się skarg poza pojedynczą oceną 1-gwiazdkową."
         }
       ]
     },
@@ -319,9 +491,276 @@
           "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-hepa-samsung-ax34r3020ww-usuwa-zapachy-34m2-8aff125e-b2c1-455d-9c7e-f31db594055e?offerId=15168393629",
           "rating": 4.94,
           "ratingsCount": 162,
-          "summary": "Na Allegro model ten ma ocenę 4,94/5 przy 162 ocenach i 39 recenzjach (154 to najwyższa nota) – jeden z najliczniej ocenianych modeli w naszym zestawieniu. Najbardziej pomocna recenzja pochodzi od rodziny kupującej już drugi egzemplarz (jeden dla dziecka z alergią, drugi do pokoju z kurzem) i chwali cichą pracę, wskazując jako jedyną wadę spore gabaryty urządzenia. Rozkład ocen jest bardzo wysoki i spójny, bez powtarzających się poważniejszych zastrzeżeń."
+          "summary": "Na Allegro model ten ma ocenę 4,94/5 przy 162 ocenach i 39 recenzjach (154 to najwyższa nota) - jeden z najliczniej ocenianych modeli w naszym zestawieniu. Najbardziej pomocna recenzja pochodzi od rodziny kupującej już drugi egzemplarz (jeden dla dziecka z alergią, drugi do pokoju z kurzem) i chwali cichą pracę, wskazując jako jedyną wadę spore gabaryty urządzenia. Rozkład ocen jest bardzo wysoki i spójny, bez powtarzających się poważniejszych zastrzeżeń."
         }
       ]
+    },
+    "rowenta-intense-pure-air-connect-xl-pu6080": {
+      "brand": "Rowenta",
+      "model": "Intense Pure Air Connect XL PU6080",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-rowenta-pu6080f0-intense-pure-air-connect-c2b7d85f-17fd-4f4f-a7e4-8f164abe1870?offerId=18135062174",
+            "rating": 5,
+            "ratingsCount": 2,
+            "summary": "Na Allegro model ma najwyższą możliwą ocenę 5,00/5, ale opiera się to wyłącznie na 2 ocenach gwiazdkowych - produkt nie doczekał się jeszcze żadnej pisemnej recenzji na tej platformie. Próbka jest zbyt mała, by wyciągać z niej jakiekolwiek wnioski jakościowe, ale warto odnotować, że obie oceny są maksymalne."
+          },
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Rowenta-Pu6080-Oczyszczacz-Powietrza-Czarny/dp/B078XXGMVV",
+            "rating": 3.9,
+            "ratingsCount": 794,
+            "summary": "Na Amazon.pl model zbiera 3,9/5 przy 794 ocenach globalnych (zero recenzji z Polski - widoczne opinie pochodzą głównie z Niemiec, Francji, Holandii, Hiszpanii i Belgii). Zadowoleni użytkownicy chwalą realną skuteczność w usuwaniu zapachów kuchennych i kurzu, ciche działanie w trybie normalnym i nocnym oraz aplikację pokazującą stan filtrów i jakość powietrza. Powtarzającym się, wyraźnie krytycznym wątkiem są problemy z konfiguracją i stabilnością połączenia Wi-Fi (m.in. zbyt długie hasła sieciowe czy przypadkowe resetowanie połączenia po dotknięciu przycisku), a w trybie turbo urządzenie staje się bardzo głośne. Rozkład ocen jest wyraźnie bardziej rozproszony niż przy modelach Levoit z tego zestawienia - aż 12% ocen jednogwiazdkowych sugeruje, że część klientów miała poważniejsze problemy z urządzeniem lub jego łącznością."
+          }
+        ],
+        "combinedSummary": "Dla Rowenta Intense Pure Air Connect XL PU6080 opinie udało się potwierdzić tylko na dwóch platformach - Media Expert nie ma tego modelu w ofercie (sprzedaje inne modele Rowenty oraz same filtry), więc tę platformę pominięto. Dane z Allegro są zbyt skromne, by cokolwiek wnieść (tylko 2 oceny bez żadnej recenzji tekstowej), natomiast Amazon.pl dostarcza znacznie szerszy, choć bardziej mieszany obraz: 794 globalne oceny dają średnią 3,9/5 - wyraźnie niższą niż w przypadku ocenianych modeli Levoit w tym zestawieniu. Powtarzającym się motywem są realna skuteczność w usuwaniu zapachów i kurzu oraz przydatna aplikacja, ale też częste narzekania na problemy z Wi-Fi i głośną pracę w trybie turbo. To jedyny produkt w tym zestawieniu, dla którego nie ma żadnych pisemnych recenzji z polskich sklepów - dostępne dane pochodzą niemal wyłącznie z zagranicznych rynków, o czym warto pamiętać przy ocenie wiarygodności dla polskiego klienta."
+      }
+    },
+    "smartmi-air-purifier-3": {
+      "brand": "Smartmi",
+      "model": "Air Purifier 3",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-smartmi-air-purifier-3",
+            "rating": 4.7,
+            "ratingsCount": 1,
+            "summary": "Tylko jedna zweryfikowana opinia w bazie MediaExpert: \"Jestem zaskoczona wydajnością i jakością. Kilka poziomów pracy. Fajna i łatwa aplikacja do monitorowania jakości powietrza i sterowania. Polecam.\" Próbka jest zbyt mała, by wyciągać jakiekolwiek wnioski ogólne."
+          }
+        ],
+        "combinedSummary": "Dla tego produktu dane są bardzo skąpe. Na Allegro strona produktowa istnieje, ale nie ma tam jeszcze żadnych opinii. Na Amazon.pl nie znaleziono dedykowanej oferty dla modelu \"Air Purifier 3\" (jedyny pasujący wynik to inny, starszy i niedostępny model bez cyfry 3, świadomie pominięty). Jedyna wiarygodna opinia pochodzi z MediaExpert (4,7/5, ale tylko 1 recenzja) i jest pozytywna, lecz zbyt mało liczna, by stanowić realną podstawę oceny."
+      }
+    },
+    "philips-ac3360-11-pureprotect-pet": {
+      "brand": "Philips",
+      "model": "AC3360/11 PureProtect Pet",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-philips-ac3360-11",
+            "rating": 4.9,
+            "ratingsCount": 15,
+            "summary": "15 opinii, bardzo wysoka ocena (4,9/5), 14 osób poleca produkt. Recenzje chwalą skuteczność wobec sierści i zapachów zwierzęcych oraz cichy tryb nocny, ale trzeba uczciwie zaznaczyć: kilka recenzji jest opisanych wprost jako \"opinia pochodząca z akcji promocyjnej\" (testerskie, nie w pełni organiczne). Jedna z nich wskazuje realną wadę: filtr wstępny nie przylega całkowicie do filtra głównego; inna zauważa, że przy kocie filtr brudzi się bardzo szybko."
+          }
+        ],
+        "combinedSummary": "Jedyną wiarygodną platformą z opiniami dla tego produktu jest MediaExpert (4,9/5, 15 opinii) - nie znaleziono dedykowanej strony produktowej z opiniami ani na Allegro, ani na Amazon.pl. Odbiór jest bardzo pozytywny, szczególnie wśród właścicieli zwierząt i alergików, ale znacząca część recenzji pochodzi z akcji promocyjnej/testerskiej, co warto uwzględnić przy interpretacji tak wysokiej średniej. Zgłoszone realne usterki są drobne: niedokładne przyleganie filtra wstępnego do głównego oraz szybkie brudzenie się filtra przy kocie."
+      }
+    },
+    "winix-t800": {
+      "brand": "Winix",
+      "model": "T800",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-winix-t800-hepa-pm-2-5-do-120-m2-wydajny-500-m3-h-fa1c90f8-53de-4001-ba41-345a07cfc16d",
+            "rating": 4.62,
+            "ratingsCount": 13,
+            "summary": "13 ocen i 6 pisemnych recenzji (76% to 5/5, jedna ocena 2/5 bez treści). Najbardziej pomocna recenzja opisuje zakup pod kątem ograniczenia dymu tytoniowego - użytkownik chwali cichą pracę w trybie auto (niesłyszalny w nocy) i niskie zużycie energii w tym trybie (5-13 W, deklarowane 45 W tylko na turbo)."
+          },
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/WINIX-T800-oczyszczacz-technologia-filtrowanie/dp/B0DLKQ2DL7",
+            "rating": 4.3,
+            "ratingsCount": 33,
+            "summary": "33 oceny globalne (78% to piątki, ale 13% to jedynki bez dostępnej treści). Polskie recenzje są pozytywne i konkretne - jeden użytkownik podaje pomiar: PM2.5 spadło z 100 do poziomu 20x niższego po 30 minutach pracy; drugi zwraca uwagę, że przy zwierzęciu filtr trzeba czyścić częściej."
+          }
+        ],
+        "combinedSummary": "Winix T800 nie jest sprzedawany w MediaExpert, ale zarówno Allegro (4,62/5, 13 ocen), jak i Amazon.pl (4,3/5, 33 oceny) potwierdzają dobry odbiór wśród kupujących. Konkretne, zmierzone opinie (spadek PM2.5, niskie zużycie prądu w trybie auto) dodają wiarygodności pozytywnym ocenom. Jedynym powtarzającym się zastrzeżeniem jest konieczność częstszego czyszczenia filtra przy posiadaniu zwierząt domowych; na Amazon.pl 13% ocen to oceny 1-gwiazdkowe, których treści nie udało się pozyskać, więc nie można wykluczyć poważniejszych, nieujawnionych problemów u części kupujących."
+      }
+    },
+    "philips-dual-scan-ac3858-51": {
+      "brand": "Philips",
+      "model": "Dual Scan AC3858/51",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-philips-ac3858-51-1af2846e-8fc2-4bb0-8531-2327c4b79575",
+            "rating": 4.93,
+            "ratingsCount": 41,
+            "summary": "Na Allegro produkt (Philips AC3858/51 Dual Scan Series 4000i, 610 m³/h, 73 m²) ma bardzo wysoką ocenę 4,93/5 przy 41 ocenach i 12 recenzjach (92% to piątki). Uwaga: konkretna oferta, do której prowadził link, jest już zakończona (\"Ten produkt nie jest dostępny\"), ale zagregowana strona produktu z ocenami pozostaje dostępna na allegro.pl i dotyczy dokładnie tego modelu. Najbardziej pomocna recenzja chwali bardzo cichą pracę i realną poprawę - recenzent zgłasza ustąpienie przewlekłego kaszlu związanego z dymem z sezonu grzewczego - oraz szybką reakcję czujnika na mikrozanieczyszczenia. Nie znaleziono wiarygodnej, dedykowanej oferty tego dokładnego wariantu (AC3858/51, nie /50) na Amazon.pl ani na MediaExpert.pl, więc te platformy pominięto dla tego produktu."
+          }
+        ],
+        "combinedSummary": "Dla Philips Dual Scan AC3858/51 udało się potwierdzić wiarygodne dane wyłącznie z Allegro.pl, gdzie produkt ma bardzo wysoką ocenę 4,93/5 przy 41 ocenach i 12 recenzjach. Recenzje są zdecydowanie pozytywne: użytkownicy chwalą bardzo cichą pracę, szybko reagujący czujnik Dual Scan i realną poprawę komfortu oddychania, w tym redukcję kaszlu związanego z dymem grzewczym. Nie znaleziono aktywnej, dedykowanej oferty tego konkretnego wariantu (AC3858/51, w odróżnieniu od AC3858/50 i AC3854/51) z realnymi opiniami na Amazon.pl ani MediaExpert.pl, więc - zgodnie z zasadą niefabrykowania danych - te platformy zostały pominięte. Warto zaznaczyć, że konkretna oferta na Allegro, z której pochodzi ocena, jest już zakończona/wygaszona (produkt niedostępny u tego sprzedawcy), więc dane pochodzą z zagregowanej, archiwalnej już częściowo strony produktu."
+      }
+    },
+    "xiaomi-smart-air-purifier-4-compact": {
+      "brand": "Xiaomi",
+      "model": "Smart Air Purifier 4 Compact",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-xiaomi-air-purifier-4-compact-fbb9e237-b2c0-4dda-8842-f4ba44fe239a",
+            "rating": 4.83,
+            "ratingsCount": 1660,
+            "summary": "Na Allegro produkt ma bardzo dużą próbę opinii: 4,83/5 przy 1660 ocenach i 420 recenzjach (89% ocen to piątki). Najbardziej pomocna recenzja chwali estetykę, kompaktowy rozmiar i aplikację; jedynym zastrzeżeniem jest zbyt mała ilość węgla aktywnego w oryginalnym filtrze, przez co recenzent planuje dokupić zamiennik z większą zawartością węgla."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-xiaomi-smart-air-purifier-4-compact-ac-m18-sc",
+            "rating": 4.7,
+            "ratingsCount": 82,
+            "summary": "Na MediaExpert.pl produkt ma ocenę 4,7/5 przy 82 opiniach, z czego 79 użytkowników go poleca. Kupujący opisują go jako bardzo cichy (nawet w trybie auto i nocnym) oraz skuteczny nawet w większych mieszkaniach niż deklarowane 27 m² - jedna recenzentka pisze, że oczyszczacz ogarnął całe 50-metrowe mieszkanie i szybko usunął zapach smogu. Jeden z recenzentów zaznacza dodatkowo, że tańsze zamienniki filtra wymagają doszczelnienia uszczelką, by działały poprawnie."
+          },
+          {
+            "platform": "Amazon.pl",
+            "url": "https://www.amazon.pl/Xiaomi-Smart-Air-Purifier-Compact/dp/B0B6FHKKHP",
+            "rating": 4.4,
+            "ratingsCount": 1386,
+            "summary": "Na Amazon.pl (model zweryfikowany przez pole „Styl: Oczyszczacz 4 Compact\") produkt ma 4,4/5 przy 1386 ocenach globalnych (71% to piątki). Zweryfikowane polskie recenzje są w większości entuzjastyczne - jedna chwali neutralizację zapachów i usuwanie dymu „nawet po zgaszeniu świeczki\", inna potwierdza zadowolenie z użytku w niewielkich pomieszczeniach. Jedna krytyczna recenzja (2/5) zgłasza jednak hałas rzędu 48 dB w trybie ulubionym oraz niewyważony wiatrak powodujący wibracje - w dwóch kolejno zakupionych egzemplarzach - a także trudności z integracją z Home Assistant."
+          }
+        ],
+        "combinedSummary": "Xiaomi Smart Air Purifier 4 Compact ma bardzo spójne, wysokie oceny na wszystkich trzech platformach: 4,83/5 na Allegro (1660 ocen/420 recenzji), 4,7/5 na MediaExpert (82 opinie) i 4,4/5 na Amazon.pl (1386 ocen). Kupujący najczęściej chwalą kompaktowy rozmiar, estetykę, cichą pracę - zwłaszcza w trybie nocnym - oraz skuteczność w eliminowaniu dymu, kurzu i zapachów, nawet w mieszkaniach większych niż deklarowane 27 m². Pojawiają się jednak powtarzające się drobne zastrzeżenia: niska zawartość węgla aktywnego w oryginalnym filtrze (Allegro) oraz pojedyncze relacje o niewyważonym wiatraku powodującym wibracje i hałas do 48 dB, a także problemy z integracją z Home Assistant (Amazon.pl). Przy tak dużej i spójnej liczbie opinii na trzech niezależnych platformach ogólny obraz produktu jest wiarygodnie pozytywny."
+      }
+    },
+    "philips-amf970-10-air-performer": {
+      "brand": "Philips",
+      "model": "AMF970/10 Air Performer",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/oferta/philips-oczyszczacz-powietrza-4w1-nawilzacz-grzejnik-wentylator-amf970-10-18623869218",
+            "rating": 5,
+            "ratingsCount": 2,
+            "summary": "Na Allegro produkt ma ocenę 5,00/5, ale próbka jest znikoma - zaledwie 2 oceny i 2 recenzje. Jedyna widoczna recenzja chwali szybkie oczyszczanie powietrza w pokoju oraz przydatność funkcji wentylatora podczas upałów. Ze względu na tak małą liczbę opinii wynik ten nie może być traktowany jako reprezentatywny."
+          },
+          {
+            "platform": "MediaExpert.pl",
+            "url": "https://www.mediaexpert.pl/agd-male/do-domu/oczyszczacze-powietrza/oczyszczacz-powietrza-philips-amf970-10",
+            "rating": 4.9,
+            "ratingsCount": 17,
+            "summary": "Na MediaExpert.pl produkt ma ocenę 4,9/5 na podstawie 17 opinii, ale trzeba uczciwie zaznaczyć, że tylko 2 z nich są oznaczone jako „Potwierdzony zakup\" - pozostałe wyświetlone recenzje pochodzą z akcji promocyjnej producenta (oznaczone tagami #testowaniePhilips/#testujprodukty.pl), czyli są to opinie testerów, nie zwykłych kupujących. Wśród dwóch zweryfikowanych zakupów jedna jest entuzjastyczna (5/5, chwali automatykę i liczbę funkcji), druga bardziej wyważona (4,7/5) - recenzent chwali wygląd i aplikację, ale zgłasza, że urządzenie jest dość głośne w trybie auto plus i w praktyce nie nadaje się do pokoi większych niż ok. 25 m², mimo deklarowanych przez producenta 48 m²."
+          }
+        ],
+        "combinedSummary": "Philips AMF970/10 Air Performer zbiera wysokie noty na obu sprawdzonych platformach (5,00/5 na Allegro, 4,9/5 na MediaExpert), ale w obu przypadkach trzeba mocno zastrzec wiarygodność próby: na Allegro to zaledwie 2 recenzje, a na MediaExpert większość z 17 wyświetlonych opinii pochodzi z płatnej akcji testowej producenta, nie od organicznych kupujących. Z nielicznych wiarygodnych, zweryfikowanych zakupem głosów wyłania się obraz produktu skutecznego i wszechstronnego (4w1: oczyszczanie, nawilżanie, wentylator, grzanie), ale jeden zweryfikowany nabywca na MediaExpert zwraca uwagę na głośną pracę w trybie auto plus oraz realny zasięg działania bliższy 25 m² niż deklarowanym przez producenta 48 m². Amazon.pl nie oferuje obecnie tego modelu (sprawdzono, brak wyników), więc platforma została pominięta. Ze względu na małą liczbę niezależnych opinii ogólna ocena tego produktu powinna być traktowana z większą ostrożnością niż w przypadku pozostałych pozycji w tym zestawieniu."
+      }
+    },
+    "levoit-core-600s": {
+      "brand": "Levoit",
+      "model": "Core 600S",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-600s-smart-hepa-bialy-38c4dd48-7087-4929-b448-7d063cead55c",
+            "rating": 4.85,
+            "ratingsCount": 26,
+            "summary": "Na Allegro.pl model ma ocenę 4,85/5 przy 26 ocenach i 8 rozbudowanych recenzjach, z czego 24 to noty najwyższe - rozkład jest więc bardzo skupiony, ale liczba opinii wciąż niewielka. Kupujący chwalą przede wszystkim skuteczne usuwanie zapachów, w tym oparów z kuchni, oraz automatykę, która sama podnosi bieg po wykryciu zanieczyszczenia. Najbardziej pomocna recenzja jest jednak krytyczna: jej autor kwestionuje deklarowany zasięg, zwraca uwagę, że kurz nadal osiada mimo setek godzin pracy urządzenia w niewielkim pokoju, i wskazuje na wysoki koszt filtra wymienianego co roku. Pojawia się też uwaga o nocnych skokach wskazań czujnika bez widocznej przyczyny. Warto czytać te opinie razem z naszym przelicznikiem wymian powietrza - przy 147 m² deklarowanych przez producenta urządzenie osiąga poniżej dwóch wymian na godzinę, co tłumaczy część rozczarowań w dużych pomieszczeniach."
+          }
+        ]
+      }
+    },
+    "levoit-core-400s": {
+      "brand": "Levoit",
+      "model": "Core 400S",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-400s-fa6b95c1-a57d-4d8c-bc82-8b0a5deb7ee9",
+            "rating": 4.56,
+            "ratingsCount": 16,
+            "summary": "Na Allegro.pl model ma ocenę 4,56/5 przy 16 ocenach i 5 recenzjach - to próbka niewielka, na dolnej granicy tego, co uznajemy za wystarczające, więc średnią warto czytać ostrożnie. Rozkład jest wyraźnie spolaryzowany: 14 not najwyższych oraz po jednej ocenie dwójkowej i jedynkowej, bez ocen pośrednich. Najbardziej pomocna recenzja jest pozytywna i chwali wydajność, wiarygodny odczyt jakości powietrza oraz stabilną aplikację, wskazując jako jedyną wadę hałas na najwyższym biegu w trybie automatycznym. Ten sam autor opisuje zachowanie, które bywa mylnie brane za usterkę: przy pracującym nawilżaczu po drugiej stronie pomieszczenia wskaźnik zmienia kolor na czerwony, ale urządzenie nie przyspiesza obrotów - to reakcja czujnika na wilgoć, opisana w instrukcji producenta."
+          }
+        ]
+      }
+    },
+    "levoit-core-200s": {
+      "brand": "Levoit",
+      "model": "Core 200S",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-200s-hepa-dla-alergikow-cichy-35-m2-smart-a30d4901-2121-44e7-9808-294b8efdb5f6",
+            "rating": 4.83,
+            "ratingsCount": 70,
+            "summary": "Na Allegro.pl model ma ocenę 4,83/5 przy 70 ocenach i 27 recenzjach - to jedna z liczniejszych próbek wśród oczyszczaczy w naszym rankingu, więc średnia jest tu wiarygodniejsza niż przy modelach z kilkunastoma opiniami. Noty najwyższe stanowią 65 z 70. Kupujący opisują wyraźną różnicę w powietrzu już po pół godziny pracy w pokoju około 18 m², skuteczne wyłapywanie sierści zwierząt i prostą wymianę filtra. Powtarzającym się zastrzeżeniem jest głośność: pierwszy bieg oceniany jest jako cichy, drugi już jako głośny, a trzeci jako bardzo głośny. To spójne z deklaracją producenta, który podaje zakres 24-45 dB, a więc różnicę ponad dwudziestu decybeli między najcichszym a najgłośniejszym ustawieniem."
+          }
+        ]
+      }
+    },
+    "levoit-core-mini": {
+      "brand": "Levoit",
+      "model": "Core Mini",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-levoit-core-mini-hepa-cadr-78-m3-h-cichy-aroma-51a50032-3680-43b2-b0e3-d944db6130bf",
+            "rating": 4.86,
+            "ratingsCount": 505,
+            "summary": "Na Allegro.pl model ma ocenę 4,86/5 przy 505 ocenach i 157 recenzjach - to najliczniejsza próbka spośród wszystkich oczyszczaczy w naszym rankingu, więc średnia jest tu wyjątkowo wiarygodna. Rozkład: 464 noty najwyższe, 25 czwórek, 7 trójek, 5 dwójek i 4 jedynki. Kupujący najczęściej chwalą prostotę - jeden przycisk, bardzo łatwa wymiana filtra - i wprost zaznaczają, że to nie jest urządzenie dla kogoś, kto szuka rozbudowanych funkcji i aplikacji. Powtarza się obserwacja o hałasie: pierwszy bieg jest na tyle cichy, że nie przeszkadza w spaniu, drugi i trzeci są wyraźnie głośniejsze. Pokrywa się to z naszym pomiarem laboratoryjnym - zmierzyliśmy 24,9 dB na najniższym biegu przy deklarowanych 25 dB, a producent podaje zakres 25-44 dB, czyli prawie dwudziestodecybelową różnicę między ustawieniami. Doceniana jest też niewielka obudowa, łatwa do wpasowania w małym pomieszczeniu."
+          }
+        ]
+      }
+    },
+    "clofte-duo-400": {
+      "brand": "Clofte",
+      "model": "Duo 400",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/nawilzacz-powietrza-clofte-duo-400-940e6bb0-0532-47cf-9314-f94d70584502",
+            "rating": 4.73,
+            "ratingsCount": 30,
+            "summary": "Na Allegro.pl model ma ocenę 4,73/5 przy 30 ocenach i 7 recenzjach. Rozkład jest wyraźnie przechylony w górę: 24 noty najwyższe, 4 czwórki i 2 trójki, bez ocen najniższych. Najbardziej pomocna recenzja jest rozbudowana i mieszana. Kupujący chwali higrostat i higrometr, cichy tryb nocny, trzy rodzaje nawiewu, łatwy dostęp do wlewu wody oraz to, że zbiornik w trybie automatycznym wystarcza mniej więcej na dobę. Zgłasza przy tym trzy konkretne zastrzeżenia: tryb automatyczny dąży do zadanych 50% wilgotności, ale zwykle ich nie osiąga; wbudowany higrometr zawyża odczyt o 10-15 punktów wobec miernika ze stacji pogodowej; a samo urządzenie \"najlepiej sprawdza się w mniejszych niż 55 m²\". Ta ostatnia uwaga jest niezależnym potwierdzeniem tego, co wychodzi z naszego przelicznika: przy deklarowanych 55 m² i CADR 110 m³/h model osiąga 0,8 wymiany powietrza na godzinę, czyli najmniej w całym naszym rankingu 102 urządzeń."
+          }
+        ]
+      }
+    },
+    "klarta-forste-4": {
+      "brand": "Klarta",
+      "model": "Forste 4",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-klarta-forste-4-white-40m2-h13-69332e67-e51c-414d-b795-e7a9232f7969",
+            "rating": 4.88,
+            "ratingsCount": 368,
+            "summary": "Na Allegro.pl wariant biały ma ocenę 4,88/5 przy 368 ocenach i 103 recenzjach. Wariant czarny prowadzony jest jako osobna karta z własną pulą ocen: 4,86/5 przy 281 ocenach i 81 recenzjach. Razem daje to blisko 650 ocen tego samego urządzenia i najliczniejszą próbkę spośród wszystkich oczyszczaczy w naszym rankingu, więc średnia jest tu wyjątkowo wiarygodna. Warto o tym podziale pamiętać przy sprawdzaniu opinii samodzielnie - patrząc na jeden kolor, widzi się mniej więcej połowę głosów. W wariancie białym rozkład wygląda tak: 340 not najwyższych, 18 czwórek, 5 trójek, 4 dwójki i 1 jedynka, a dwie opinie zostały usunięte przez serwis. Oceny krytyczne stanowią więc niecałe 3% głosów, ale ich treść nie była dostępna do odczytania. Najbardziej pomocna recenzja pochodzi od użytkownika, który przez cztery lata miał poprzednią generację Forste 3 pracującą całodobowo i wymienił ją na ten model. Chwali wyraźnie cichszą pracę niż poprzednik, większą liczbę trybów, tanie filtry i sterowanie z telefonu, którego w poprzedniej generacji musiał sobie dorabiać. Trwałości nowego modelu sam jeszcze nie ocenia."
+          }
+        ]
+      }
+    },
+    "coway-storm": {
+      "brand": "Coway",
+      "model": "Storm",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/coway-storm-ap-1516d-oczyszczacz-powietrza-f8afbb3a-9d16-4e9c-9305-115365aa006c",
+            "rating": 4.93,
+            "ratingsCount": 14,
+            "summary": "Na Allegro.pl model ma ocenę 4,93/5 przy 14 ocenach i 4 recenzjach. To próbka niewielka, na dolnej granicy tego, co uznajemy za wystarczające, więc średnią warto czytać ostrożnie - przy czternastu głosach jedna skrajna opinia przesuwa wynik wyraźnie. Rozkład nie ma ocen negatywnych: 13 not najwyższych i jedna czwórka. Recenzje są krótkie. Najbardziej pomocna sprowadza się do trzech obserwacji: urządzenie jest bardzo ciche, proste w obsłudze, ale na najwyższym biegu robi się z niego, cytując kupującego, istne tornado. To spójne z parametrami - przy CADR 492 m³/h najwyższy bieg musi przesuwać dużo powietrza. Tożsamość oferty potwierdziliśmy po kodzie producenta AP-1516D, podanym wprost w tytule karty."
+          }
+        ]
+      }
+    },
+    "klarta-stor-2": {
+      "brand": "Klarta",
+      "model": "Stor 2",
+      "platforms": {
+        "platforms": [
+          {
+            "platform": "Allegro.pl",
+            "url": "https://allegro.pl/produkt/oczyszczacz-powietrza-klarta-stor-2-white-d989df0b-9520-4bec-9c9d-6c7c70154f15",
+            "rating": 4.91,
+            "ratingsCount": 69,
+            "summary": "Na Allegro.pl model ma ocenę 4,91/5 przy 69 ocenach i 20 recenzjach - to próbka na tyle liczna, że średnia jest wiarygodna. Rozkład: 66 not najwyższych, 2 czwórki i jedna jedynka, bez ocen pośrednich. Najbardziej pomocna recenzja opisuje miesiąc użytkowania w sypialni i jest konkretna. Kupujący chwali wydajność, szybkie oczyszczanie na biegu średnim po wietrzeniu, cichy tryb snu oraz aplikację z harmonogramem pracy. Zgłasza dwa zastrzeżenia: na najwyższym biegu urządzenie jest głośne, choć sam nie widzi potrzeby, żeby z tego biegu korzystać, a ruch powietrza daje wyczuwalny efekt chłodzenia, do którego trzeba się przyzwyczaić. Ta druga uwaga rzadko pojawia się w opisach producentów, a przy urządzeniu tej klasy jest realnym czynnikiem przy ustawieniu go w sypialni."
+          }
+        ]
+      }
     }
   }
 }
